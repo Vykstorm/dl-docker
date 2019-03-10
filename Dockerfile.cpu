@@ -2,9 +2,9 @@ FROM ubuntu:14.04
 
 MAINTAINER Sai Soundararaj <saip@outlook.com>
 
-ARG TENSORFLOW_VERSION=0.12.1
+ARG TENSORFLOW_VERSION=1.11.0
 ARG TENSORFLOW_ARCH=cpu
-ARG KERAS_VERSION=1.2.0
+ARG KERAS_VERSION=2.2.4
 
 # Install some dependencies
 RUN apt-get update && apt-get install -y \
